@@ -29,3 +29,28 @@ pet-image-classifier/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+Tech Stack
+Python 3.11
+TensorFlow / Keras
+Pandas
+Matplotlib
+Pillow
+Git / GitHub
+
+
+## How to Run
+
+# Activate environment
+venv\Scripts\activate
+
+# Train model
+cd src
+python train_model.py
+
+# Evaluate model
+python evaluate_model.py
+
+# Predict image
+python predict.py ..\data\raw\dogs\images.jpg
+

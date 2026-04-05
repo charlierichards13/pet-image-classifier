@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 models/*
 !models/training_history.png
+!models/prediction_log.csv
 data/raw/
 data/processed/
 .ipynb_checkpoints/

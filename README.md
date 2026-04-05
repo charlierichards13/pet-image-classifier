@@ -54,3 +54,6 @@ python evaluate_model.py
 # Predict image
 python predict.py ..\data\raw\dogs\images.jpg
 
+```md
+## Notes
+This project demonstrates a modular machine learning pipeline with data validation, preprocessing, training, evaluation, visualization, and prediction logging. Model performance is limited by dataset size, which highlights the importance of data quality and scale in real-world workflows.

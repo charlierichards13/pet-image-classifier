@@ -22,6 +22,7 @@ pet-image-classifier/
 ├── notebooks/
 ├── src/
 │   ├── load_data.py
+│   ├── validate_data.py
 │   ├── train_model.py
 │   ├── evaluate_model.py
 │   └── predict.py
@@ -40,6 +41,10 @@ Git / GitHub
 
 
 ## How to Run
+
+# validate dataset
+cd src
+python validate_data.py
 
 # Activate environment
 venv\Scripts\activate
